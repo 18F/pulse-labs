@@ -1,0 +1,38 @@
+# Site metadata.
+
+# Canonical URL
+url: https://pulse.cio.gov
+
+name: Pulse
+title: "The pulse of the federal .gov space"
+description: "How federal government domains are meeting best practices on the web."
+
+# Data sources. These URLs should have their content updated in-place.
+data:
+  # URL where we download the .gov domain list from.
+  domains_url: "https://github.com/GSA/data/raw/master/dotgov-domains/current-federal.csv"
+
+  # URL where we download the participating DAP .gov list from.
+  analytics_url: "https://analytics.usa.gov/data/live/second-level-domains.csv"
+
+  # DAP URL where we source public .gov subdomains from.
+  analytics_subdomains_url: "https://analytics.usa.gov/data/live/sites-extended.csv"
+
+  # Preprocessed CSV where we source End of Term Archive data from.
+  eot_subdomains_url: https://github.com/GSA/data/raw/master/end-of-term-archive-csv/eot-2016-seeds.csv
+
+  # Snapshot of Censys.io data from late November 2017, interim while we
+  # re-establish use of their APIs.
+  censys_snapshot_url: https://github.com/GSA/data/raw/master/dotgov-websites/censys-federal-snapshot.csv
+
+  # Snapshot of Rapid7 Reverse DNS data from Scans.io in late 2017. The data
+  # is too big to automatically process each time with our current infrastructure,
+  # so this is relying on occasional snapshots which can be updated in-place in the repo.
+  rdns_snapshot_url: https://github.com/GSA/data/raw/master/dotgov-websites/rdns-federal-snapshot.csv
+
+a11y:
+  config: https://github.com/18F/pulse/raw/master/data/a11y_config/pa11y_config.json
+  redirects: https://github.com/18F/pulse/raw/master/data/a11y_config/a11y_redirects.yml
+
+bucket: cg-4adefb86-dadb-4ecf-be3e-f1c7b4f6d084
+aws_region: us-gov-west-1

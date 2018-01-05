@@ -1,0 +1,1 @@
+Domain,Base Domain,Scanned Hostname,SSLv2,SSLv3,TLSv1.0,TLSv1.1,TLSv1.2,Any Forward Secrecy,All Forward Secrecy,Weakest DH Group Size,Any RC4,All RC4,Key Type,Key Length,Signature Algorithm,SHA-1 in Served Chain,SHA-1 in Constructed Chain,Not Before,Not After,Highest Served Issuer,Highest Constructed Issuer,Errors

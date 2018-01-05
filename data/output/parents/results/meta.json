@@ -1,0 +1,34 @@
+{
+  "command": "/opt/scan/domain-scan/scan https://github.com/GSA/data/raw/master/dotgov-domains/current-federal.csv --scan=pshtt,sslyze,analytics,a11y,third_parties --analytics=https://analytics.usa.gov/data/live/second-level-domains.csv --a11y_config=https://github.com/18F/pulse/raw/master/data/a11y_config/pa11y_config.json --a11y_redirects=https://github.com/18F/pulse/raw/master/data/a11y_config/a11y_redirects.yml --output=/opt/scan/pulse/data/./output/parents --sslyze-certs=false --sort --lambda=True --lambda-profile=lambda",
+  "duration": "3396.077192",
+  "durations": {
+    "a11y": {
+      "duration": "5.354317",
+      "end_time": "2017-12-15T06:24:37.021587Z",
+      "start_time": "2017-12-15T06:24:31.66727Z"
+    },
+    "analytics": {
+      "duration": "0.634090",
+      "end_time": "2017-12-15T06:24:31.667043Z",
+      "start_time": "2017-12-15T06:24:31.032953Z"
+    },
+    "pshtt": {
+      "duration": "1298.835237",
+      "end_time": "2017-12-15T05:49:47.698898Z",
+      "start_time": "2017-12-15T05:28:08.863661Z"
+    },
+    "sslyze": {
+      "duration": "2083.333607",
+      "end_time": "2017-12-15T06:24:31.032737Z",
+      "start_time": "2017-12-15T05:49:47.69913Z"
+    },
+    "third_parties": {
+      "duration": "5.986028",
+      "end_time": "2017-12-15T06:24:43.007848Z",
+      "start_time": "2017-12-15T06:24:37.02182Z"
+    }
+  },
+  "end_time": "2017-12-15T06:24:43.041945Z",
+  "scan_uuid": "03fb048d-96a3-45e9-8741-9d0d5ded92d4",
+  "start_time": "2017-12-15T05:28:06.964753Z"
+}

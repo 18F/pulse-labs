@@ -1,0 +1,5 @@
+{
+  "command": "/opt/scan/domain-scan/scan https://raw.githubusercontent.com/GSA/data/gh-pages/dotgov-domains/current-federal.csv --scan=pshtt,analytics,tls,a11y,third_parties --analytics=https://analytics.usa.gov/data/live/second-level-domains.csv --output=/opt/scan/pulse/data/./output/scan --a11y_config=https://github.com/18F/pulse/blob/master/data/a11y_config/pa11y_config.json --a11y_redirects=https://raw.githubusercontent.com/18F/pulse/master/data/a11y_config/a11y_redirects.yml --debug --sort --force",
+  "end_time": "2017-09-28T15:34:46Z",
+  "start_time": "2017-09-28T14:29:43Z"
+}
